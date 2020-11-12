@@ -56,8 +56,13 @@ while True:
     current_minute = get_minute()
     time_diff = current_minute - starting_minute
     if time_diff >= UPDATE_DATA_INTERVAL or time_diff < 0:
-        color_dict = get_new_json()
-        starting_minute = get_minute()
+        old_dict = color_dict
+        try:
+            color_dict = get_new_json()
+            starting_minute = get_minute()
+        except:
+            color_dict = old_dict
+            starting_minute = get_minute()
 
     # Set the quote text
     matrixportal.set_text(color_dict["quote"])
