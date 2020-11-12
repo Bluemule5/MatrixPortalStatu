@@ -24,3 +24,10 @@ Contains files needed to run the Python Flask server.
 5. Create username/password or ssh keys to the server so you can remotely update the quote color file when needed
 6. Run the flask application 
 7. Turn on the Portal
+
+## Built in Message Changes 
+1. Navigate to http://$ServerIPAddress/outofoffice to replace message with "Out of Office"
+2. Navigate to http://$ServerIPAddress/inoffice to replace message with "In Office"
+3. Navigate to http://$ServerIPAddress/inmeeting to replace message with "In A Meeting"
+4. Navigate to http://$ServerIPAddress/blankmessage to replace message with ""
+4. Navigate to http://$ServerIPAddress/gonehome to replace message with "Gone Home"
