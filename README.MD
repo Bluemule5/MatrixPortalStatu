@@ -30,4 +30,4 @@ Contains files needed to run the Python Flask server.
 2. Navigate to http://$ServerIPAddress/inoffice to replace message with "In Office"
 3. Navigate to http://$ServerIPAddress/inmeeting to replace message with "In A Meeting"
 4. Navigate to http://$ServerIPAddress/blankmessage to replace message with ""
-4. Navigate to http://$ServerIPAddress/gonehome to replace message with "Gone Home"
+5. Navigate to http://$ServerIPAddress/gonehome to replace message with "Gone Home"
